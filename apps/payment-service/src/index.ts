@@ -3,8 +3,12 @@ import { Hono } from "hono";
 
 const app = new Hono();
 
-app.get("/", (c) => {
-  return c.text("Payment endpoint works");
+app.get("/health", (c) => {
+  return c.json({
+    status: "ok",
+    uptime: process.uptime(),
+    timestamp: Date.now()
+  });
 });
 
 const start = async () => {
