@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@repo/types": "workspace:*",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.5"
   }

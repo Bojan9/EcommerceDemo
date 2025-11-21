@@ -13,12 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@repo/types": "workspace:*",
     "@types/node": "^20",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@clerk/fastify": "^2.6.2",
-    "fastify": "^5.6.2"
+    "fastify": "^5.6.2",
+    "@repo/order-db": "workspace:*"
   }
 }

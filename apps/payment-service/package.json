@@ -15,6 +15,7 @@
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.11.17",
+    "@repo/types": "workspace:*",
     "tsx": "^4.7.1",
     "typescript": "^5.8.3"
   }
